@@ -1,0 +1,34 @@
+/**********
+HEADER
+**********/
+header {
+    background-color: #2C3E50;
+    /* debug */
+    height: 80px;
+}
+
+header .col {
+    /* debug */
+    height: 60px;
+    border: 2px solid black;
+}
+
+/**********
+MAIN
+**********/
+
+/* JUMBOTRON */
+.jumbotron {
+    background-color: #1ABC9C;
+}
+
+.jumbotron .container {
+    border: 2px solid black;
+}
+
+.jumbotron .container .flex-column .col {
+    /* debug */
+    flex-basis: 100px;
+    border: 1px solid red;
+    background-color: aquamarine;
+}
