@@ -32,3 +32,11 @@ MAIN
     border: 1px solid red;
     background-color: aquamarine;
 }
+
+/* PRIMA SEZIONE - PORTFOLIO */
+#portfolio .container .row .col {
+    /* debug */
+    height: 100px;
+    background-color: bisque;
+    border: 1px solid brown;
+}
