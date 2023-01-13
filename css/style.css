@@ -113,17 +113,32 @@ MAIN
 }
 
 /* TERZA SEZIONE - CONTACT */
-/* #contact .container {
-    debug
-    border: 2px solid black;
-} */
+#contacts {
+    color: #2C3E50;
+}
 
-/* #contact .container .flex-column .col {
-    debug
-    flex-basis: 50px;
-    border: 1px solid coral;
-    background-color: aquamarine;
-} */
+#contacts .box.box-icon .line {
+    width: 3rem;
+}
+
+#contacts form .col-8 * {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+}
+
+#contacts form input[placeholder] {
+    color: #2C3E50;
+}
+
+#contacts .btn {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+
+::-webkit-input-placeholder {
+    color: #2C3E50;
+}
 
 /**********
 FOOTER
