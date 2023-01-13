@@ -94,21 +94,23 @@ MAIN
 }
 
 /* SECONDA SEZIONE - ABOUT */
-/* #about {
+#about {
     background-color: #1ABC9C;
-} */
+    color: #FFF;
+} 
 
-/* #about .h2 {
-    debug
-    height: 40px;
-} */
+#about .box.box-icon .line {
+    width: 3rem;
+}
 
-/* #about .container .row .col {
-    debug
-    background-color: aqua;
-    height: 100px;
-    border: 1px solid lightblue;
-} */
+#about .col-auto .btn {
+    color: #FFF;
+    border-color: #FFF;
+}
+
+#about .col-auto .btn:hover {
+    background-color: transparent;
+}
 
 /* TERZA SEZIONE - CONTACT */
 /* #contact .container {
