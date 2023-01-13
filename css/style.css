@@ -143,18 +143,27 @@ MAIN
 /**********
 FOOTER
 **********/
-/* footer .footer-top {
+footer {
+    color: #FFF;
+}
+
+footer .footer-top {
     background-color: #3A546D;
-} */
+}
 
-/* footer .footer-top .container .row .col {
-    debug
-    height: 50px;
-    border: 1px solid lightgray;
-} */
+footer .footer-top .circle {
+    display: inline-block;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+}
 
-/* footer .footer-bottom {
+footer .footer-top .green-text {
+    color: #1ABC9C;
+}
+
+footer .footer-bottom {
     background-color: #2C3E50;
-    /* debug */
-    /* height: 60px; */
-/* } */ 
+} 
